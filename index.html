@@ -4,23 +4,29 @@
     <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>Adonis</title>
-    <link rel="stylesheet" href="https://unpkg.com/tachyons@4.5.3/css/tachyons.min.css"/>
   	<link rel="stylesheet" href="main.css" type="text/css">
+    <link rel="stylesheet" href="https://unpkg.com/tachyons@4.5.3/css/tachyons.min.css"/>
   	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+
+	<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+	<link rel="manifest" href="/manifest.json">
+	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#404041">
+	<meta name="theme-color" content="#ffffff">
   </head>
   <body>
- 	<nav class="mw7 center ma0">
+ 	<nav class="mw8 center ma0">
 		<ul class="list tr pv1 mv0 pv3 pr3">
-  			<li class="dib ml2"><a href="#what" class="f6 f5-ns db pa2 link hover-black gray">What We Do</a></li>
-  			<li class="dib ml2"><a href="#how" class="f6 f5-ns db pa2 link hover-black gray">How It Works</a></li>
-  			<li class="dib-ns dn ml2-ns ml0"><a href="#partners" class="f6 f5-ns pa2 link hover-black gray">Partners</a></li>
-  			<li class="dib-ns dn ml2-ns ml0"><a href="#patrons" class="f6 f5-ns pa2 link hover-black gray">Patrons</a></li>
-  			<li class="dib ml2"><a href="#contact" class="f6 f5-ns db pa2 link hover-black gray">Contact Us</a></li>
+  			<li class="dib ml2-ns ml0"><a href="#what" class="f7 f6-ns db pa2 pr0 link hover-black gray">What We Do</a></li>
+  			<li class="dib ml2-ns ml0"><a href="#how" class="f7 f6-ns db pa2 pr0 link hover-black gray">How It Works</a></li>
+  			<li class="dib-ns dn ml2-ns ml0"><a href="#partners" class="f7 f6-ns pa2 pr0 link hover-black gray">Partners</a></li>
+  			<li class="dib-ns dn ml2-ns ml0"><a href="#patrons" class="f7 f6-ns pa2 pr0 link hover-black gray">Patrons</a></li>
+  			<li class="dib ml2-ns ml0"><a href="#contact" class="f7 f6-ns db pa2 pr0 link hover-black gray">Contact Us</a></li>
   		</ul>
 	</nav>
 
-	<article class="mw7 center ph3 ph5-ns tc br2 pv5 bg-near-white mid-gray mb0 mt0">
-	  <img src="assets/logo-np.svg" class="w4 ma2 mb3"/>
+	<article class="mw8 center ph4 ph5-ns tc br2 pv5 bg-near-white mid-gray mb0 mt0">
+	  <img src="assets/logo-np.svg" class="w4 ma2 mb3 grow"/>
 	  <h1 class="fw8 f3 f2-ns lh-title mt0 mb2 adonis">
 	    Adonis
 	  </h1> 
@@ -42,16 +48,28 @@
   		</div>
 	</article>
 
-	<div id="wrapper" class="mw7 center ph5 silver lh-copy f5">
+	<div id="wrapper" class="mw8 center ph4 ph5-ns silver lh-copy f5">
 		<section id="what" class="mt4 pb4 bb b--light-gray">
 			<h2 class="mt5 mb1 mid-gray lh-title">
 				What We Do
 			</h2>
 			<p class="measure">
-				Adonis replaces web ads with unintrusive ads supporting the Illegal Wildlife Fund Initiative. The initiative sponsors projects that reduce demand for illegal wildlife products.
-			</p>
-			<p class="measure">
-				You only need to install Adonis on Chrome and you are help supporting the initiative! There is no donation necessary!
+				Conservation projects take a long time. They need continual funding to operate, however, most people cannot afford to do this, but they want to help. Adonis allows them to do just that. By installing Adonis, regular ads will be replaced with ads from our patrons, who pay us directly to display those ads.
+				</p>
+
+				<div class="w-100">
+					<figure class="mh0 mt4 mb2 w-40-ns w-100 dib v-top">
+						<figcaption class="ttu tracked gray fw5 f6 mb2">Without Adonis</figcaption>
+						<img src="assets/nyt.png" class="w-100"/>
+					</figure>
+
+					<figure class="mr0 ml5-ns ml0 mt4 mb2 w-40-ns w-100 dib v-top">
+						<figcaption class="ttu tracked gray fw5 f6 mb2">With Adonis</figcaption>
+						<img src="assets/nyt-after.png" class="w-100 mb4"/>
+					</figure>
+				</div>
+
+				<p class="measure">These ads respect your privacy and your time. They are lightweight, unobstrusive, and will never track your browsing behavior. These ads could be facts about endangered wildlife, fun facts about animals, or pictures of cute animals.
 			</p>
 		</section>
 
@@ -59,8 +77,35 @@
 			<h2 class="mt4 mb1 mid-gray lh-title">
 				How It Works
 			</h2>
+
+			<div class="w-100">
+					<figure class="mh0 mt4 mb2 w-40-ns w-100 dib v-top">
+						<figcaption class="ttu tracked gray fw5 f6 mb2">Without Adonis</figcaption>
+						<img src="assets/diagram.png" class="w-100"/>
+					</figure>
+
+					<figure class="mr0 ml5-ns ml0 mt4 mb2 w-40-ns w-100 dib v-top">
+						<figcaption class="ttu tracked gray fw5 f6 mb2">With Adonis</figcaption>
+						<img src="assets/diagram-2.png" class="w-100"/>
+					</figure>
+				</div>
+
 			<p class="measure">
-				<a href="#patrons">Corporate patrons</a> pay for ads supporting the Illegal Wildlife Fund through Adonis instead of paying ad companies for promotion.
+				Normally, companies pay ad networks to display their ads. Adonis blocks those ads, and shows ads from our patrons instead. When those ads are displayed, those patrons pay our partner conservation organizations directly. This means that by installing Adonis, you are funding conservation projects.
+			</p>
+		</section>
+
+		<section id="features" class="mt4 pb4 bb b--light-gray">
+			<h2 class="mt4 mb1 mid-gray lh-title">
+				Features
+			</h2>	
+			<p class="measure">
+				We appreciate our partners who are working hard to protect wildlife:
+			</p>
+			<p class="measure">
+				<a href="http://uswta.org/" class="no-underline black-60 hover-mid-gray">U.S. Wildlife Trafficking Alliance</a>,
+				<a href="http://www.stoppoaching-now.org/" class="no-underline black-60 hover-mid-gray">Stop Poaching Now!</a>,
+				<a href="http://thinkelephants.org/" class="no-underline black-60 hover-mid-gray">Think Elephants International</a>
 			</p>
 		</section>
 
@@ -72,9 +117,9 @@
 				We appreciate our partners who are working hard to protect wildlife:
 			</p>
 			<p class="measure">
-				<a href="http://uswta.org/">U.S. Wildlife Trafficking Alliance</a>,
-				<a href="http://www.stoppoaching-now.org/">Stop Poaching Now!</a>,
-				<a href="http://thinkelephants.org/">Think Elephants International</a>
+				<a href="http://uswta.org/" class="no-underline black-60 hover-mid-gray">U.S. Wildlife Trafficking Alliance</a>,
+				<a href="http://www.stoppoaching-now.org/" class="no-underline black-60 hover-mid-gray">Stop Poaching Now!</a>,
+				<a href="http://thinkelephants.org/" class="no-underline black-60 hover-mid-gray">Think Elephants International</a>
 			</p>
 		</section>
 
@@ -86,12 +131,12 @@
 				Special thanks to those supporting our initiative:
 			</p>
 			<p class="measure">
-				<a href="http://www.ebay.com/">eBay</a>, 
-				<a href="https://www.etsy.com/">Etsy</a>, 
-				<a href="https://www.google.com/">Google</a>, 
-				<a href="http://www.jetblue.com/">JetBlue Airways</a>, 
-				<a href="http://www.ralphlauren.com/">Ralph Lauren</a>, 
-				<a href="http://www.tiffany.com/">Tiffany & Co.</a>
+				<a href="http://www.ebay.com/" class="no-underline black-60 hover-mid-gray">eBay</a>, 
+				<a href="https://www.etsy.com/" class="no-underline black-60 hover-mid-gray">Etsy</a>, 
+				<a href="https://www.google.com/" class="no-underline black-60 hover-mid-gray">Google</a>, 
+				<a href="http://www.jetblue.com/" class="no-underline black-60 hover-mid-gray">JetBlue Airways</a>, 
+				<a href="http://www.ralphlauren.com/" class="no-underline black-60 hover-mid-gray">Ralph Lauren</a>, 
+				<a href="http://www.tiffany.com/" class="no-underline black-60 hover-mid-gray">Tiffany & Co.</a>
 			</p>
 		</section>
 
@@ -100,7 +145,7 @@
 				Contact Us
 			</h2>
 			<p class="measure">
-				Please feel free to <a href="mailto:someone@example.com?Subject=Feedback">message</a> us with any questions, concerns, or feedback!
+				Please feel free to <a href="mailto:someone@example.com?Subject=Feedback" class="no-underline black-50 hover-mid-gray">message</a> us with any questions, concerns, or feedback!
 			</p>
 		</section>
 		
@@ -108,15 +153,15 @@
 
   </body>
 
-  <footer class="mw7 center ph5 pv4 mt5 black-30">
-  	<div class="mb3">
+  <footer class="mw8 center ph4 ph5-ns pv4 mt5 black-30">
+  	<div class="mb4">
 		<img src="assets/logo-np.svg" class="dib h2 mr2"/>
 	  	<h2 class="dib link b f3 f2-ns adonis lh-solid mb0 mt0">Adonis</h2>
 	</div>
 
   	<p class="f6 db b ttu lh-solid tracked">Built at <a href="http://www.zoohackathon.com/" class="no-underline black-50 hover-mid-gray">Zoohackathon</a>.</p>
 
-  	<p class="f6 db b ttu lh-copy tracked">Made With Love in Seattle by:</br><span class="black-50"><a class="no-underline black-50 hover-mid-gray" href="http://www.walterceder.me">Walter Ceder</a>, <a class="no-underline black-50 hover-mid-gray" href="http://www.steakscience.com">Nirawit Jittipairoj</a>, <a class="no-underline black-50 hover-mid-gray" href="http://www.linkedin.com/in/bruceyng">Bruce Ng</a>, <a class="no-underline black-50 hover-mid-gray" href="http://www.linkedin.com/in/ivycwong">Ivy Wong</a>, <a class="no-underline black-50 hover-mid-gray" href="http://www.linkedin.com/in/hyoo2">Hannah Yoo</a></span></p>
+  	<p class="f6 db b ttu lh-copy tracked">Made With Love in Seattle by:</br><span class="black-50"><a class="no-underline black-50 hover-mid-gray" href="http://www.walterceder.me">Walter Ceder</a>, <a class="no-underline black-50 hover-mid-gray" href="http://www.steakscience.com">Nirawit Jittipairoj</a>, <a class="no-underline black-50 hover-mid-gray" href="http://www.linkedin.com/in/bruceyng">Bruce Ng</a>, <a class="no-underline black-50 hover-mid-gray" href="http://www.linkedin.com/in/ivycwong">Ivy Wong</a> &amp; <a class="no-underline black-50 hover-mid-gray" href="http://www.linkedin.com/in/hyoo2">Hannah Yoo</a></span></p>
   
 </footer>
 

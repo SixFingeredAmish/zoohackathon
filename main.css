@@ -3,9 +3,13 @@
 }
 
 .roboto {
-	font-family: 'Roboto';
+	font-family: 'Roboto' !important;
 }
 
 .adonis {
 	color: #404041 !important;
+}
+
+.f7 {
+	font-size: .8rem;
 }
