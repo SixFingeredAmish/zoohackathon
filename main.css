@@ -1,3 +1,7 @@
-serif {
-	font-family: 'Libre Baskerville';
+.serif {
+	font-family: 'Libre Baskerville' !important;
+}
+
+.roboto {
+	font-family: 'Roboto';
 }
