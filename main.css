@@ -1,3 +1,9 @@
+body {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-rendering: geometricPrecision;
+}
+
 .serif {
 	font-family: 'Libre Baskerville' !important;
 }
